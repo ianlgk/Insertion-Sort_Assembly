@@ -1,12 +1,12 @@
 .data
-    espaco:	.asciiz " "		# string equivalente ao ' ', espaço.
-    quebra_de_linha:	.asciiz	"\n"		# string equivalente a quebra de linha.
-    vetor:  				# Cria o vetor
-        .align 2 			# Alinha o string inteiro na ordem certa
-        .space 40			# Aloca espaço para o vetor
-    entrada_de_dados: .asciiz "Digite um número inteiro: "
-    vetor_string: .asciiz "Vetor: "
-    vetor_ordenado_string:	.asciiz "Vetor Ordenado: "
+    espaco: .asciiz " "						# string equivalente ao ' ', espaço
+    quebra_de_linha: .asciiz	"\n"				# string equivalente a quebra de linha
+    entrada_de_dados: .asciiz "Digite um número inteiro: "	# string equivalente a 'Digite um número inteiro: '
+    vetor_string: .asciiz "Vetor: "				# string equivalente a 'Vetor: '
+    vetor_ordenado_string: .asciiz "Vetor Ordenado: "		# string equivalente a 'Vetor Ordenado: '
+    vetor:  							# Cria o vetor
+        .align 2 						# Alinha o string inteiro na ordem certa
+        .space 40						# Aloca espaço para o vetor
     
 .text
 .globl main
